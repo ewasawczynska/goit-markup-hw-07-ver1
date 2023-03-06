@@ -496,10 +496,12 @@ header {
   padding-left: 16px;
   padding-top: 15px;
   padding-bottom: 15px;
+  padding-right: 0px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background: none;
+  width: 358px;
 }
 
 .newsletter-input:placeholder-shown {
@@ -509,6 +511,11 @@ header {
   line-height: 1.25;
 }
 
+.newsletter-box {
+  display: inline;
+  flex-wrap: nowrap;
+  align-content: stretch;
+}
 .sm-icons-panel {
   fill: var(--mainandaddress);
   display: flex;
