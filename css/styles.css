@@ -225,11 +225,13 @@ body {
   font-size: 26px;
   color: var(--mainandaddress);
   line-height: 1.4;
+  padding-bottom: 20px;
 }
 .address {
   color: var(--mainandaddress);
   line-height: 1.7;
   font-style: normal;
+  font-size: 14px;
 }
 
 .contact-footer {
@@ -505,7 +507,7 @@ header {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background: none;
-  max-width: 358px;
+  width: 358px;
 }
 
 .newsletter-input:placeholder-shown {
