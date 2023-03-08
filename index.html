@@ -392,7 +392,7 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <p>Zostaw swoje dane w formularzu poniżej</p>
+        <p class="form-title">Zostaw swoje dane w formularzu poniżej</p>
         <form>
           <label>
             Imię
@@ -406,6 +406,25 @@
             Email
             <input type="email" name="email" />
           </label>
+          <label>
+            Komentarz
+            <textarea
+              name="comment"
+              rows="5"
+              placeholder="Wprowadź tekst"
+            ></textarea>
+          </label>
+          <label>
+            <input
+              type="checkbox"
+              name="reg-and-policies"
+              value="reg-and-policies"
+            />
+            Oświadczam iż akceptuję
+            <a href="#" class="reg-and-policies-link">Regulamin</a> i
+            <a href="#" class="reg-and-policies-link">Politykę Prywatności</a>.
+          </label>
+          <button type="submit" class="main-form-button">Wyślij</button>
         </form>
         <button
           type="button"

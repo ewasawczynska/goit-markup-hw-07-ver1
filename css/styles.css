@@ -507,7 +507,7 @@ header {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background: none;
-  width: 358px;
+  width: 345px;
 }
 
 .newsletter-input:placeholder-shown {
@@ -700,4 +700,40 @@ header {
   100% {
     transform: scale(1);
   }
+}
+
+label {
+  display: flex;
+}
+
+.reg-and-policies-link {
+  text-decoration: underline;
+  text-decoration-color: var(--highlights);
+  color: var(--highlights);
+}
+
+.main-form-button {
+  background: var(--highlights);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 0px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--mainandaddress);
+  padding: 10px 76px;
+  margin-top: 30px;
+}
+
+.form-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--titles);
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
