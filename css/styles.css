@@ -785,3 +785,13 @@ label {
   padding-top: 20px;
   font-size: 14px;
 }
+
+.reg-and-policies-class[type="checkbox"]:checked::after {
+  background-image: <svg> <use href= "./images/icons.svg#icon-tick" ></use>
+    </svg>;
+}
+
+.reg-and-policies-class[type="checkbox"]:not(:disabled):checked:hover:after {
+  background-image: <svg> <use href= "./images/icons.svg#icon-tick" ></use>
+    </svg>;
+}
