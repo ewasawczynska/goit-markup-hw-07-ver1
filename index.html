@@ -393,36 +393,40 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <p class="form-title">Zostaw swoje dane w formularzu poniżej</p>
-        <form>
+        <form class="form">
           <label>
-            Imię
-            <input type="text" name="username" />
+            <div class="name-field">Imię</div>
+            <input type="text" name="username" class="form-input field1" />
           </label>
           <label>
-            Telefon
-            <input type="tel" name="phonenumber" />
+            <div class="name-field">Telefon</div>
+            <input type="tel" name="phonenumber" class="form-input field1" />
           </label>
           <label>
-            Email
-            <input type="email" name="email" />
+            <div class="name-field">Email</div>
+            <input type="email" name="email" class="form-input field1" />
           </label>
           <label>
-            Komentarz
+            <div class="name-field">Komentarz</div>
             <textarea
               name="comment"
-              rows="5"
+              rows="7"
               placeholder="Wprowadź tekst"
+              class="form-input comm-field"
             ></textarea>
           </label>
           <label>
-            <input
-              type="checkbox"
-              name="reg-and-policies"
-              value="reg-and-policies"
-            />
-            Oświadczam iż akceptuję
-            <a href="#" class="reg-and-policies-link">Regulamin</a> i
-            <a href="#" class="reg-and-policies-link">Politykę Prywatności</a>.
+            <div class="policy-check">
+              <input
+                type="checkbox"
+                name="reg-and-policies"
+                value="reg-and-policies"
+              />
+              Oświadczam iż akceptuję
+              <a href="#" class="reg-and-policies-link">Regulamin</a> i
+              <a href="#" class="reg-and-policies-link">Politykę Prywatności</a
+              >.
+            </div>
           </label>
           <button type="submit" class="main-form-button">Wyślij</button>
         </form>
