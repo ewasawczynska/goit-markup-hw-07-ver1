@@ -774,6 +774,10 @@ label {
   color: rgba(117, 117, 117, 0.5);
 }
 
+.form-input:focus {
+  border: 1px solid var(--highlights);
+}
+
 .comm-field {
   padding: 12px 16px;
 }
