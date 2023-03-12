@@ -747,6 +747,7 @@ label {
   padding-left: 40px;
   padding-right: 40px;
   margin-bottom: 10px;
+  position: relative;
 }
 
 .field1 {
@@ -790,12 +791,7 @@ label {
   font-size: 14px;
 }
 
-.reg-and-policies-class[type="checkbox"]:checked::after {
-  background-image: <svg> <use href= "./images/icons.svg#icon-tick" ></use>
-    </svg>;
-}
-
-.reg-and-policies-class[type="checkbox"]:not(:disabled):checked:hover:after {
-  background-image: <svg> <use href= "./images/icons.svg#icon-tick" ></use>
-    </svg>;
+.form-input > .form-icons {
+  fill: var(--titles);
+  position: absolute;
 }
