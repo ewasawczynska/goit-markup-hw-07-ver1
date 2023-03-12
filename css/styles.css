@@ -818,7 +818,7 @@ input[type="checkbox"]:checked {
 }
 
 .input-box:focus,
-.input-box:focus .form-icons {
+.input-box:focus .input-icon .form-icons {
   border: 1px solid var(--highlights);
   fill: var(--highlights);
 }
