@@ -396,27 +396,36 @@
         <form class="form">
           <label>
             <div class="name-field">Imię</div>
-
-            <input type="text" name="username" class="form-input field1" />
-            <svg class="form-icons" width="18" height="18">
-              <use href="./images/icons.svg#icon-person-form"></use>
-            </svg>
+            <div class="input-box">
+              <input type="text" name="username" class="form-input field1" />
+              <div class="input-icon">
+                <svg class="form-icons" width="18" height="18">
+                  <use href="./images/icons.svg#icon-person-form"></use>
+                </svg>
+              </div>
+            </div>
           </label>
           <label>
             <div class="name-field">Telefon</div>
-
-            <input type="tel" name="phonenumber" class="form-input field1" />
-            <svg class="form-icons" width="18" height="18">
-              <use href="./images/icons.svg#icon-phone-form"></use>
-            </svg>
+            <div class="input-box">
+              <input type="tel" name="phonenumber" class="form-input field1" />
+              <div class="input-icon">
+                <svg class="form-icons" width="18" height="18">
+                  <use href="./images/icons.svg#icon-phone-form"></use>
+                </svg>
+              </div>
+            </div>
           </label>
           <label>
             <div class="name-field">Email</div>
-
-            <input type="email" name="email" class="form-input field1" />
-            <svg class="form-icons" width="18" height="18">
-              <use href="./images/icons.svg#icon-email-form"></use>
-            </svg>
+            <div class="input-box">
+              <input type="email" name="email" class="form-input field1" />
+              <div class="input-icon">
+                <svg class="form-icons" width="18" height="18">
+                  <use href="./images/icons.svg#icon-email-form"></use>
+                </svg>
+              </div>
+            </div>
           </label>
           <label>
             <div class="name-field">Komentarz</div>
@@ -431,14 +440,13 @@
             <div class="policy-check">
               <input
                 type="checkbox"
-                name="reg-and-policies"
-                value="reg-and-policies"
-                class="reg-and-policies-class"
+                name="policy-checkbox"
+                value="policy-acceptance"
+                class="policy-checkbox"
               />
               Oświadczam iż akceptuję
-              <a href="#" class="reg-and-policies-link">Regulamin</a> i
-              <a href="#" class="reg-and-policies-link">Politykę Prywatności</a
-              >.
+              <a href="#" class="policy-link">Regulamin</a> i
+              <a href="#" class="policy-link">Politykę Prywatności</a>.
             </div>
           </label>
           <button type="submit" class="main-form-button">Wyślij</button>

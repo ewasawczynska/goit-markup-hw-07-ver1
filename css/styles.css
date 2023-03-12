@@ -707,7 +707,7 @@ label {
   flex-direction: column;
 }
 
-.reg-and-policies-link {
+.policy-link {
   text-decoration: underline;
   text-decoration-color: var(--highlights);
   color: var(--highlights);
@@ -747,7 +747,6 @@ label {
   padding-left: 40px;
   padding-right: 40px;
   margin-bottom: 10px;
-  position: relative;
 }
 
 .field1 {
@@ -791,7 +790,24 @@ label {
   font-size: 14px;
 }
 
-.form-input > .form-icons {
+.input-box {
+  position: relative;
+}
+.input-box > .input-icon {
   fill: var(--titles);
   position: absolute;
+  bottom: 17px;
+  left: 12px;
+}
+
+input[type="checkbox"]:checked {
+  appearance: none;
+  width: 16px;
+  height: 15px;
+  background: var(--highlights);
+  border-radius: 4px;
+  background-image: url("/images/tick.svg");
+  background-repeat: no-repeat;
+  background-size: 11px 8px;
+  background-position: 3px 4px;
 }
