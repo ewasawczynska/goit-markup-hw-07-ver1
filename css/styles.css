@@ -679,19 +679,18 @@ header {
   0% {
     transform: scale(1);
   }
-
   50% {
     transform: scale(1.25);
   }
 
   100% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 
 @keyframes modal-window-animate-close {
   0% {
-    transform: scale(1);
+    transform: scale(1) translate(-50%, -50%);
   }
 
   50% {
