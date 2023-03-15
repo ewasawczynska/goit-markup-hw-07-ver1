@@ -820,6 +820,7 @@ input[type="checkbox"]:checked {
   border: 0px;
   border-radius: 4px;
   background-image: url("/images/tick.svg");
+  fill: var(--mainandaddress);
   background-repeat: no-repeat;
   background-size: 11px 8px;
   background-position: 3px 4px;
