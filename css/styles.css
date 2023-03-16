@@ -672,6 +672,7 @@ header {
 }
 
 :not(.is-hidden) > .modal {
+  transform-origin: left top;
   animation: modal-window-animate-open 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -834,7 +835,7 @@ input[type="checkbox"]:checked {
 .input-box:focus,
 .input-box:hover,
 .input-box:active,
-.input-box:focus .input-icon .form-icons,
+.input-box:focus-within .input-icon .form-icons,
 .input-box:hover .input-icon .form-icons,
 .input-box:active .input-icon .form-icons {
   fill: var(--highlights);
